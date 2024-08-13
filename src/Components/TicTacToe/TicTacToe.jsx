@@ -80,6 +80,7 @@ const TicTacToe = () => {
     }
 
     const handleReset = () => {
+        setCount(0);
         setLock(false);
         data = ["","","","","","","","",""];
         titleRef.current.innerHTML = 'Tic Tac Toe Game In <span>React</span>'
